@@ -10,7 +10,6 @@ def browser_management():
     browser.config.window_height = 1000
     browser.config.window_width = 1500
 
-
     yield
 
     browser.quit()
